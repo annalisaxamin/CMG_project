@@ -1,0 +1,516 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output.
+%%%                        It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+%use https://www.doi2bib.org/
+
+%PROKKA
+@article{Seemann2014,
+  doi = {10.1093/bioinformatics/btu153},
+  url = {https://doi.org/10.1093/bioinformatics/btu153},
+  year = {2014},
+  month = mar,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {30},
+  number = {14},
+  pages = {2068--2069},
+  author = {T. Seemann},
+  title = {Prokka: rapid prokaryotic genome annotation},
+  journal = {Bioinformatics}
+}
+
+@incollection{Lytynoja2013,
+  doi = {10.1007/978-1-62703-646-7_10},
+  url = {https://doi.org/10.1007/978-1-62703-646-7_10},
+  year = {2013},
+  month = aug,
+  publisher = {Humana Press},
+  pages = {155--170},
+  author = {Ari L\"{o}ytynoja},
+  title = {Phylogeny-aware alignment with {PRANK}},
+  booktitle = {Methods in Molecular Biology}
+}
+
+@article{Katoh2002,
+  doi = {10.1093/nar/gkf436},
+  url = {https://doi.org/10.1093/nar/gkf436},
+  year = {2002},
+  month = jul,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {30},
+  number = {14},
+  pages = {3059--3066},
+  author = {K. Katoh},
+  title = {{MAFFT}: a novel method for rapid multiple sequence alignment based on fast Fourier transform},
+  journal = {Nucleic Acids Research}
+}
+
+
+%ROARY
+@article{Page2015,
+  doi = {10.1093/bioinformatics/btv421},
+  url = {https://doi.org/10.1093/bioinformatics/btv421},
+  year = {2015},
+  month = jul,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {31},
+  number = {22},
+  pages = {3691--3693},
+  author = {Andrew J. Page and Carla A. Cummins and Martin Hunt and Vanessa K. Wong and Sandra Reuter and Matthew T.G. Holden and Maria Fookes and Daniel Falush and Jacqueline A. Keane and Julian Parkhill},
+  title = {Roary: rapid large-scale prokaryote pan genome analysis},
+  journal = {Bioinformatics}
+}
+@Manual{R,
+    title = {R: A Language and Environment for Statistical Computing},
+    author = {{R Core Team}},
+    organization = {R Foundation for Statistical Computing},
+    address = {Vienna, Austria},
+    year = {2021},
+    url = {https://www.R-project.org/},
+  }
+% The following citations related to introduction section: 
+@article{Watson2021,
+  doi = {10.1101/2021.04.02.438222},
+  url = {https://doi.org/10.1101/2021.04.02.438222},
+  year = {2021},
+  month = apr,
+  publisher = {Cold Spring Harbor Laboratory},
+  author = {Mick Watson},
+  title = {New insights from 33, 813 publicly available metagenome-assembled-genomes ({MAGs}) assembled from the rumen microbiome}
+}
+@article{Price2009,
+  doi = {10.1093/molbev/msp077},
+  url = {https://doi.org/10.1093/molbev/msp077},
+  year = {2009},
+  month = apr,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {26},
+  number = {7},
+  pages = {1641--1650},
+  author = {M. N. Price and P. S. Dehal and A. P. Arkin},
+  title = {{FastTree}: Computing Large Minimum Evolution Trees with Profiles instead of a Distance Matrix},
+  journal = {Molecular Biology and Evolution}
+}
+@article {Watson2021.04.02.438222,
+	author = {Watson, Mick},
+	title = {New insights from 33,813 publicly available metagenome-assembled-genomes (\MakeUppercase{MAG}s) assembled from the rumen microbiome},
+	elocation-id = {2021.04.02.438222},
+	year = {2021},
+	doi = {10.1101/2021.04.02.438222},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Recent rumen microbiome metagenomics papers1,2 have published hundreds of metagenome-assembled genomes (MAGs), comparing them to 4,941 MAGs published by Stewart et al3 in order to define novelty. However, there are many more publicly available MAGs from ruminants. In this paper, for the first time, all available resources are combined, catalogued and de-replicated to define putative species-level bins. As well as providing new insights into the constitution of the rumen microbiome, including an updated estimate of the number of microbial species in the rumen, this work demonstrates that a lack of community-adopted standards for the release and annotation of MAGs hinders progress in microbial ecology and metagenomics.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/04/02/2021.04.02.438222},
+	eprint = {https://www.biorxiv.org/content/early/2021/04/02/2021.04.02.438222.full.pdf},
+	journal = {bioRxiv}
+}
+
+@software{tange_2022_6213471,
+      author       = {Tange, Ole},
+      title        = {GNU Parallel 20220222 ('Donetsk Luhansk')},
+      month        = Feb,
+      year         = 2021,
+      note         = {{GNU Parallel is a general parallelizer to run
+                       multiple serial command line programs in parallel
+                       without changing them.}},
+      publisher    = {Zenodo},
+      doi          = {10.5281/zenodo.6213471},
+      url          = {https://doi.org/10.5281/zenodo.6213471}
+}
+%Roary alignment from core genes
+@article{Farrah2019,
+    author = {Sitto, Farrah and Battistuzzi, Fabia U},
+    title = "{Estimating Pangenomes with Roary}",
+    journal = {Molecular Biology and Evolution},
+    volume = {37},
+    number = {3},
+    pages = {933-939},
+    year = {2019},
+    month = {12},
+    abstract = "{A description of the genetic makeup of a species based on a single genome is often insufficient because it ignores the variability in gene repertoire among multiple strains. The estimation of the pangenome of a species is a solution to this issue as it provides an overview of genes that are shared by all strains and genes that are present in only some of the genomes. These different sets of genes can then be analyzed functionally to explore correlations with unique phenotypes and adaptations. This protocol presents the usage of Roary, a Linux-native pangenome application. Roary is a straightforward software that provides 1) an overview about core and accessory genes for those interested in general trends and, also, 2) detailed information on gene presence/absence in each genome for in-depth analyses. Results are provided both in text and graphic format.}",
+    issn = {0737-4038},
+    doi = {10.1093/molbev/msz284},
+    url = {https://doi.org/10.1093/molbev/msz284},
+    eprint = {https://academic.oup.com/mbe/article-pdf/37/3/933/32618436/msz284.pdf},
+}
+
+
+
+
+%Roary-pangenome analysis
+@article{Muzzi2011,
+title = {Population genetics and evolution of the pan-genome of \textit{Streptococcus pneumoniae} },
+journal = {International Journal of Medical Microbiology},
+volume = {301},
+number = {8},
+pages = {619-622},
+year = {2011},
+note = {9th International Meeting on Microbial Epidemiological Markers},
+issn = {1438-4221},
+doi = {https://doi.org/10.1016/j.ijmm.2011.09.008},
+url = {https://www.sciencedirect.com/science/article/pii/S1438422111000944},
+author = {Alessandro Muzzi and Claudio Donati},
+keywords = {Pan-genome, , Recombination, Horizontal gene transfer, },
+abstract = {The genetic variability in bacterial species is much larger than in other kingdoms of life. The gene content between pairs of isolates can diverge by as much as 30\% in species like Escherichia coli or Streptococcus pneumoniae. This unexpected finding led to the introduction of the concept of the pan-genome, the set of genes that can be found in a given bacterial species. The genome of any isolate is thus composed by a “core genome” shared by all strains and characteristic of the species, and a “dispensable genome” that accounts for many of the phenotypic differences between strains. The pan-genome is usually much larger than the genome of any single isolate and, given the ability of many bacteria to exchange genetic material with the environment, constitutes a reservoir that could enhance their ability to survive in a mutating environment. To understand the evolution of the pan-genome of an important pathogen and its interactions with the commensal microbial flora, we have analyzed the genomes of 44 strains of Streptococcus pneumoniae, one of the most important causes of microbial diseases in humans. Despite evidence of extensive homologous recombination, the S. pneumoniae phylogenetic tree reconstructed from polymorphisms in the core genome identified major groups of genetically related strains. With the exception of serotype 1, the tree correlated poorly with capsular serotype, geographical site of isolation and disease outcome. The distribution of dispensable genes was consistent with phylogeny, although horizontal gene transfer events attenuated this correlation in the case of ancient lineages. Homologous recombination, involving short stretches of DNA, was the dominant evolutionary process of the core genome of S. pneumoniae. Genetic exchange with related species sharing the same ecological niche was the main mechanism of evolution of S. pneumonia; and S. mitis was the main reservoir of genetic diversity of S. pneumoniae. The pan-genome of S. pneumoniae increased logarithmically with the number of strains and linearly with the variability of the sample, suggesting that acquired genes accumulate proportionately to the age of clones.}
+}
+
+@article{Shi2020,
+  doi = {10.1101/2020.06.12.149336},
+  url = {https://doi.org/10.1101/2020.06.12.149336},
+  year = {2020},
+  month = jun,
+  publisher = {Cold Spring Harbor Laboratory},
+  author = {Zhou Jason Shi and Boris Dimitrov and Chunyu Zhao and Stephen Nayfach and Katherine S. Pollard},
+  title = {Ultra-rapid metagenotyping of the human gut microbiome}
+}
+
+@article{Visconti2019,
+  doi = {10.1038/s41467-019-12476-z},
+  url = {https://doi.org/10.1038/s41467-019-12476-z},
+  year = {2019},
+  month = oct,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {10},
+  number = {1},
+  author = {Alessia Visconti and Caroline I. Le Roy and Fabio Rosa and Niccol{\`{o}} Rossi and Tiphaine C. Martin and Robert P. Mohney and Weizhong Li and Emanuele de Rinaldis and Jordana T. Bell and J. Craig Venter and Karen E. Nelson and Tim D. Spector and Mario Falchi},
+  title = {Interplay between the human gut microbiome and host metabolism},
+  journal = {Nature Communications}
+}
+
+%Roary-pangenome analysis
+@article{Nguyen2015,
+author = {Nguyen, Ngan and Hickey, Glenn and Zerbino, Daniel R. and Raney, Brian and Earl, Dent and Armstrong, Joel and Kent, W. James and Haussler, David and Paten, Benedict},
+title = {Building a Pan-Genome Reference for a Population},
+journal = {Journal of Computational Biology},
+volume = {22},
+number = {5},
+pages = {387-401},
+year = {2015},
+doi = {10.1089/cmb.2014.0146},
+    note ={PMID: 25565268},
+
+URL = { 
+        https://doi.org/10.1089/cmb.2014.0146
+    
+},
+eprint = { 
+        https://doi.org/10.1089/cmb.2014.0146
+    
+}
+,
+    abstract = { Abstract A reference genome is a high quality individual genome that is used as a coordinate system for the genomes of a population, or genomes of closely related subspecies. Given a set of genomes partitioned by homology into alignment blocks we formalize the problem of ordering and orienting the blocks such that the resulting ordering maximally agrees with the underlying genomes' ordering and orientation, creating a pan-genome reference ordering. We show this problem is NP-hard, but also demonstrate, empirically and within simulations, the performance of heuristic algorithms based upon a cactus graph decomposition to find locally maximal solutions. We describe an extension of our Cactus software to create a pan-genome reference for whole genome alignments, and demonstrate how it can be used to create novel genome browser visualizations using human variation data as a test. In addition, we test the use of a pan-genome for describing variations and as a reference for read mapping. }
+}
+
+@article{Jin2022,
+  doi = {10.1080/19490976.2021.2021790},
+  url = {https://doi.org/10.1080/19490976.2021.2021790},
+  year = {2022},
+  month = jan,
+  publisher = {Informa {UK} Limited},
+  volume = {14},
+  number = {1},
+  author = {Hao Jin and Lijun You and Feiyan Zhao and Shenghui Li and Teng Ma and Lai-Yu Kwok and Haiyan Xu and Zhihong Sun},
+  title = {Hybrid,  ultra-deep metagenomic sequencing enables genomic and functional characterization of low-abundance species in the human gut microbiome},
+  journal = {Gut Microbes}
+}
+
+
+%PhyloPhlAn 3.0
+@article{Asnicar2020,
+  doi = {10.1038/s41467-020-16366-7},
+  url = {https://doi.org/10.1038/s41467-020-16366-7},
+  year = {2020},
+  month = may,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {11},
+  number = {1},
+  author = {Francesco Asnicar and Andrew Maltez Thomas and Francesco Beghini and Claudia Mengoni and Serena Manara and Paolo Manghi and Qiyun Zhu and Mattia Bolzan and Fabio Cumbo and Uyen May and Jon G. Sanders and Moreno Zolfo and Evguenia Kopylova and Edoardo Pasolli and Rob Knight and Siavash Mirarab and Curtis Huttenhower and Nicola Segata},
+  title = {Precise phylogenetic analysis of microbial isolates and genomes from metagenomes using {PhyloPhlAn} 3.0},
+  journal = {Nature Communications}
+}
+
+%Results and discussions
+@article{ Tettelin2055,
+author = {Hervé Tettelin  and Vega Masignani  and Michael J. Cieslewicz  and Claudio Donati  and Duccio Medini  and Naomi L. Ward  and Samuel V. Angiuoli  and Jonathan Crabtree  and Amanda L. Jones  and A. Scott Durkin  and Robert T. DeBoy  and Tanja M. Davidsen  and Marirosa Mora  and Maria Scarselli  and Immaculada Margarit y Ros  and Jeremy D. Peterson  and Christopher R. Hauser  and Jaideep P. Sundaram  and William C. Nelson  and Ramana Madupu  and Lauren M. Brinkac  and Robert J. Dodson  and Mary J. Rosovitz  and Steven A. Sullivan  and Sean C. Daugherty  and Daniel H. Haft  and Jeremy Selengut  and Michelle L. Gwinn  and Liwei Zhou  and Nikhat Zafar  and Hoda Khouri  and Diana Radune  and George Dimitrov  and Kisha Watkins  and Kevin J. B. O'Connor  and Shannon Smith  and Teresa R. Utterback  and Owen White  and Craig E. Rubens  and Guido Grandi  and Lawrence C. Madoff  and Dennis L. Kasper  and John L. Telford  and Michael R. Wessels  and Rino Rappuoli  and Claire M. Fraser },
+title = {Genome analysis of multiple pathogenic isolates of \textit{Streptococcus agalactiae}: Implications for the microbial pangenome;},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {102},
+number = {39},
+pages = {13950-13955},
+year = {2005},
+doi = {10.1073/pnas.0506758102},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.0506758102},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.0506758102},
+abstract = {The development of efficient and inexpensive genome sequencing methods has revolutionized the study of human bacterial pathogens and improved vaccine design. Unfortunately, the sequence of a single genome does not reflect how genetic variability drives pathogenesis within a bacterial species and also limits genome-wide screens for vaccine candidates or for antimicrobial targets. We have generated the genomic sequence of six strains representing the five major disease-causing serotypes of Streptococcus agalactiae, the main cause of neonatal infection in humans. Analysis of these genomes and those available in databases showed that the S. agalactiae species can be described by a pan-genome consisting of a core genome shared by all isolates, accounting for ≈80\% of any single genome, plus a dispensable genome consisting of partially shared and strain-specific genes. Mathematical extrapolation of the data suggests that the gene reservoir available for inclusion in the S. agalactiae pan-genome is vast and that unique genes will continue to be identified even after sequencing hundreds of genomes.}}
+
+%Results and discussions
+@article{TETTELIN2008472,
+title = {Comparative genomics: the bacterial pan-genome},
+journal = {Current Opinion in Microbiology},
+volume = {11},
+number = {5},
+pages = {472-477},
+year = {2008},
+note = {Antimicrobials/Genomics},
+issn = {1369-5274},
+doi = {https://doi.org/10.1016/j.mib.2008.09.006},
+url = {https://www.sciencedirect.com/science/article/pii/S1369527408001239},
+author = {Hervé Tettelin and David Riley and Ciro Cattuto and Duccio Medini},
+abstract = {Bacterial genome sequencing has become so easy and accessible that the genomes of multiple strains of more and more individual species have been and will be generated. These data sets provide for in depth analysis of intra-species diversity from various aspects. The pan-genome analysis, whereby the size of the gene repertoire accessible to any given species is characterized together with an estimate of the number of whole genome sequences required for proper analysis, is being increasingly applied. Different models exist for the analysis and their accuracy and applicability depend on the case at hand. Here we discuss current models and suggest a new model of broad applicability, including examples of its implementation.}
+}
+
+@article{Nayfach_2019,
+  doi = {10.1038/s41586-019-1058-x},
+  url = {https://doi.org/10.1038/s41586-019-1058-x},
+  year = {2019},
+  month = mar,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {568},
+  number = {7753},
+  pages = {505--510},
+  author = {Stephen Nayfach and Zhou Jason Shi and Rekha Seshadri and Katherine S. Pollard and Nikos C. Kyrpides},
+  title = {New insights from uncultivated genomes of the global human gut microbiome},
+  journal = {Nature}
+}
+
+@article{Armour2019,
+  doi = {10.1128/msystems.00332-18},
+  url = {https://doi.org/10.1128/msystems.00332-18},
+  year = {2019},
+  month = aug,
+  publisher = {American Society for Microbiology},
+  volume = {4},
+  number = {4},
+  author = {Courtney R. Armour and Stephen Nayfach and Katherine S. Pollard and Thomas J. Sharpton},
+  editor = {Nicola Segata},
+  title = {A Metagenomic Meta-analysis Reveals Functional Signatures of Health and Disease in the Human Gut Microbiome},
+  journal = {{mSystems}}
+}
+
+@article{Almeida2019,
+  doi = {10.1101/762682},
+  url = {https://doi.org/10.1101/762682},
+  year = {2019},
+  month = sep,
+  publisher = {Cold Spring Harbor Laboratory},
+  author = {Alexandre Almeida and Stephen Nayfach and Miguel Boland and Francesco Strozzi and Martin Beracochea and Zhou Jason Shi and Katherine S. Pollard and Donovan H. Parks and Philip Hugenholtz and Nicola Segata and Nikos C. Kyrpides and Robert D. Finn},
+  title = {A unified sequence catalogue of over 280,000 genomes obtained from the human gut microbiome}
+}
+
+%GNU Parallel
+@article{Tange2011a,
+ title = {GNU Parallel - The Command-Line Power Tool},
+ author = {O. Tange},
+ address = {Frederiksberg, Denmark},
+ journal = {;login: The USENIX Magazine},
+ month = {Feb},
+ number = {1},
+ volume = {36},
+ url = {http://www.gnu.org/s/parallel},
+ year = {2011},
+ pages = {42-47}
+}
+
+%Interactive Tree Of Life (iTOL) 
+@article{Letunic2021,
+  doi = {10.1093/nar/gkab301},
+  url = {https://doi.org/10.1093/nar/gkab301},
+  year = {2021},
+  month = apr,
+  publisher = {Oxford University Press ({OUP})},
+  volume = {49},
+  number = {W1},
+  pages = {W293--W296},
+  author = {Ivica Letunic and Peer Bork},
+  title = {Interactive Tree Of Life ({iTOL}) v5: an online tool for phylogenetic tree display and annotation},
+  journal = {Nucleic Acids Research}
+}
+
+%The following citations are about the data papers
+@article{Nayfach2020,
+  doi = {10.1038/s41587-020-0718-6},
+  url = {https://doi.org/10.1038/s41587-020-0718-6},
+  year = {2020},
+  month = nov,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {39},
+  number = {4},
+  pages = {499--509},
+  author = {Stephen Nayfach and Simon Roux and Rekha Seshadri and Daniel Udwary and Neha Varghese and Frederik Schulz and Dongying Wu and David Paez-Espino and I-Min Chen and Marcel Huntemann and Krishna Palaniappan and Joshua Ladau and Supratim Mukherjee and T. B. K. Reddy and Torben Nielsen and Edward Kirton and Jos{\'{e}} P. Faria and Janaka N. Edirisinghe and Christopher S. Henry and Sean P. Jungbluth and Dylan Chivian and Paramvir Dehal and Elisha M. Wood-Charlson and Adam P. Arkin and Susannah G. Tringe and Axel Visel and Helena Abreu and Silvia G. Acinas and Eric Allen and Michelle A. Allen and Lauren V. Alteio and Gary Andersen and Alexandre M. Anesio and Graeme Attwood and Viridiana Avila-Maga{\~{n}}a and Yacine Badis and Jake Bailey and Brett Baker and Petr Baldrian and Hazel A. Barton and David A. C. Beck and Eric D. Becraft and Harry R. Beller and J. Michael Beman and Rizlan Bernier-Latmani and Timothy D. Berry and Anthony Bertagnolli and Stefan Bertilsson and Jennifer M. Bhatnagar and Jordan T. Bird and Jeffrey L. Blanchard and Sara E. Blumer-Schuette and Brendan Bohannan and Mikayla A. Borton and Allyson Brady and Susan H. Brawley and Juliet Brodie and Steven Brown and Jennifer R. Brum and Andreas Brune and Donald A. Bryant and Alison Buchan and Daniel H. Buckley and Joy Buongiorno and Hinsby Cadillo-Quiroz and Sean M. Caffrey and Ashley N. Campbell and Barbara Campbell and Stephanie Carr and JoLynn Carroll and S. Craig Cary and Anna M. Cates and Rose Ann Cattolico and Ricardo Cavicchioli and Ludmila Chistoserdova and Maureen L. Coleman and Philippe Constant and Jonathan M. Conway and Walter P. Mac Cormack and Sean Crowe and Byron Crump and Cameron Currie and Rebecca Daly and Kristen M. DeAngelis and Vincent Denef and Stuart E. Denman and Adey Desta and Hebe Dionisi and Jeremy Dodsworth and Nina Dombrowski and Timothy Donohue and Mark Dopson and Timothy Driscoll and Peter Dunfield and Christopher L. Dupont and Katherine A. Dynarski and Virginia Edgcomb and Elizabeth A. Edwards and Mostafa S. Elshahed and Israel Figueroa and Beverly Flood and Nathaniel Fortney and Caroline S. Fortunato and Christopher Francis and Claire M. M. Gachon and Sarahi L. Garcia and Maria C. Gazitua and Terry Gentry and Lena Gerwick and Javad Gharechahi and Peter Girguis and John Gladden and Mary Gradoville and Stephen E. Grasby and Kelly Gravuer and Christen L. Grettenberger and Robert J. Gruninger and Jiarong Guo and Mussie Y. Habteselassie and Steven J. Hallam and Roland Hatzenpichler and Bela Hausmann and Terry C. Hazen and Brian Hedlund and Cynthia Henny and Lydie Herfort and Maria Hernandez and Olivia S. Hershey and Matthias Hess and Emily B. Hollister and Laura A. Hug and Dana Hunt and Janet Jansson and Jessica Jarett and Vitaly V. Kadnikov and Charlene Kelly and Robert Kelly and William Kelly and Cheryl A. Kerfeld and Jeff Kimbrel and Jonathan L. Klassen and Konstantinos T. Konstantinidis and Laura L. Lee and Wen-Jun Li and Andrew J. Loder and Alexander Loy and Mariana Lozada and Barbara MacGregor and Cara Magnabosco and Aline Maria da Silva and R. Michael McKay and Katherine McMahon and Chris S. McSweeney and M{\'{o}}nica Medina and Laura Meredith and Jessica Mizzi and Thomas Mock and Lily Momper and Mary Ann Moran and Connor Morgan-Lang and Duane Moser and Gerard Muyzer and David Myrold and Maisie Nash and Camilla L. Nesb{\o} and Anthony P. Neumann and Rebecca B. Neumann and Daniel Noguera and Trent Northen and Jeanette Norton and Brent Nowinski and Klaus N\"{u}sslein and Michelle A. O'Malley and Rafael S. Oliveira and Valeria Maia de Oliveira and Tullis Onstott and Jay Osvatic and Yang Ouyang and Maria Pachiadaki and Jacob Parnell and Laila P. Partida-Martinez and Kabir G. Peay and Dale Pelletier and Xuefeng Peng and Michael Pester and Jennifer Pett-Ridge and Sari Peura and Petra Pjevac and Alvaro M. Plominsky and Anja Poehlein and Phillip B. Pope and Nikolai Ravin and Molly C. Redmond and Rebecca Reiss and Virginia Rich and Christian Rinke and Jorge L. Mazza Rodrigues and William Rodriguez-Reillo and Karen Rossmassler and Joshua Sackett and Ghasem Hosseini Salekdeh and Scott Saleska and Matthew Scarborough and Daniel Schachtman and Christopher W. Schadt and Matthew Schrenk and Alexander Sczyrba and Aditi Sengupta and Joao C. Setubal and Ashley Shade and Christine Sharp and David H. Sherman and Olga V. Shubenkova and Isabel Natalia Sierra-Garcia and Rachel Simister and Holly Simon and Sara Sj\"{o}ling and Joan Slonczewski and Rafael Soares Correa de Souza and John R. Spear and James C. Stegen and Ramunas Stepanauskas and Frank Stewart and Garret Suen and Matthew Sullivan and Dawn Sumner and Brandon K. Swan and Wesley Swingley and Jonathan Tarn and Gordon T. Taylor and Hanno Teeling and Memory Tekere and Andreas Teske and Torsten Thomas and Cameron Thrash and James Tiedje and Claire S. Ting and Benjamin Tully and Gene Tyson and Osvlado Ulloa and David L. Valentine and Marc W. Van Goethem and Jean VanderGheynst and Tobin J. Verbeke and John Vollmers and Aur{\`{e}}le Vuillemin and Nicholas B. Waldo and David A. Walsh and Bart C. Weimer and Thea Whitman and Paul van der Wielen and Michael Wilkins and Timothy J. Williams and Ben Woodcroft and Jamie Woolet and Kelly Wrighton and Jun Ye and Erica B. Young and Noha H. Youssef and Feiqiao Brian Yu and Tamara I. Zemskaya and Ryan Ziels and Tanja Woyke and Nigel J. Mouncey and Natalia N. Ivanova and Nikos C. Kyrpides and Emiley A. Eloe-Fadrosh and},
+  title = {A genomic catalog of Earth's microbiomes},
+  journal = {Nature Biotechnology}
+}
+
+@article{Forster2019,
+  doi = {10.1038/s41587-018-0009-7},
+  url = {https://doi.org/10.1038/s41587-018-0009-7},
+  year = {2019},
+  month = feb,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {37},
+  number = {2},
+  pages = {186--192},
+  author = {Samuel C. Forster and Nitin Kumar and Blessing O. Anonye and Alexandre Almeida and Elisa Viciani and Mark D. Stares and Matthew Dunn and Tapoka T. Mkandawire and Ana Zhu and Yan Shao and Lindsay J. Pike and Thomas Louie and Hilary P. Browne and Alex L. Mitchell and B. Anne Neville and Robert D. Finn and Trevor D. Lawley},
+  title = {A human gut bacterial genome and culture collection for improved metagenomic analyses},
+  journal = {Nature Biotechnology}
+}
+@article{Setubal2021,
+  doi = {10.1007/s12551-021-00865-y},
+  url = {https://doi.org/10.1007/s12551-021-00865-y},
+  year = {2021},
+  month = nov,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {13},
+  number = {6},
+  pages = {905--909},
+  author = {Jo{\~{a}}o C. Setubal},
+  title = {Metagenome-assembled genomes: concepts,  analogies,  and challenges},
+  journal = {Biophysical Reviews}
+}
+
+@article{Duan2019,
+  doi = {10.1038/s41586-019-1742-x},
+  url = {https://doi.org/10.1038/s41586-019-1742-x},
+  year = {2019},
+  month = nov,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {575},
+  number = {7783},
+  pages = {505--511},
+  author = {Yi Duan and Cristina Llorente and Sonja Lang and Katharina Brandl and Huikuan Chu and Lu Jiang and Richard C. White and Thomas H. Clarke and Kevin Nguyen and Manolito Torralba and Yan Shao and Jinyuan Liu and Adriana Hernandez-Morales and Lauren Lessor and Imran R. Rahman and Yukiko Miyamoto and Melissa Ly and Bei Gao and Weizhong Sun and Roman Kiesel and Felix Hutmacher and Suhan Lee and Meritxell Ventura-Cots and Francisco Bosques-Padilla and Elizabeth C. Verna and Juan G. Abraldes and Robert S. Brown and Victor Vargas and Jose Altamirano and Juan Caballer{\'{\i}}a and Debbie L. Shawcross and Samuel B. Ho and Alexandre Louvet and Michael R. Lucey and Philippe Mathurin and Guadalupe Garcia-Tsao and Ramon Bataller and Xin M. Tu and Lars Eckmann and Wilfred A. van der Donk and Ry Young and Trevor D. Lawley and Peter St\"{a}rkel and David Pride and Derrick E. Fouts and Bernd Schnabl},
+  title = {Bacteriophage targeting of gut bacterium attenuates alcoholic liver disease},
+  journal = {Nature}
+}
+
+@article{Shao2019,
+  doi = {10.1038/s41586-019-1560-1},
+  url = {https://doi.org/10.1038/s41586-019-1560-1},
+  year = {2019},
+  month = sep,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {574},
+  number = {7776},
+  pages = {117--121},
+  author = {Yan Shao and Samuel C. Forster and Evdokia Tsaliki and Kevin Vervier and Angela Strang and Nandi Simpson and Nitin Kumar and Mark D. Stares and Alison Rodger and Peter Brocklehurst and Nigel Field and Trevor D. Lawley},
+  title = {Stunted microbiota and opportunistic pathogen colonization in caesarean-section birth},
+  journal = {Nature}
+}
+
+@article{Nielsen2014,
+  doi = {10.1038/nbt.2939},
+  url = {https://doi.org/10.1038/nbt.2939},
+  year = {2014},
+  month = jul,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {32},
+  number = {8},
+  pages = {822--828},
+  author = {H Bj{\o}rn Nielsen and   and Mathieu Almeida and Agnieszka Sierakowska Juncker and Simon Rasmussen and Junhua Li and Shinichi Sunagawa and Damian R Plichta and Laurent Gautier and Anders G Pedersen and Emmanuelle Le Chatelier and Eric Pelletier and Ida Bonde and Trine Nielsen and Chaysavanh Manichanh and Manimozhiyan Arumugam and Jean-Michel Batto and Marcelo B Quintanilha dos Santos and Nikolaj Blom and Natalia Borruel and Kristoffer S Burgdorf and Fouad Boumezbeur and Francesc Casellas and Joël Dor{\'{e}} and Piotr Dworzynski and Francisco Guarner and Torben Hansen and Falk Hildebrand and Rolf S Kaas and Sean Kennedy and Karsten Kristiansen and Jens Roat Kultima and Pierre L{\'{e}}onard and Florence Levenez and Ole Lund and Bouziane Moumen and Denis Le Paslier and Nicolas Pons and Oluf Pedersen and Edi Prifti and Junjie Qin and Jeroen Raes and S{\o}ren S{\o}rensen and Julien Tap and Sebastian Tims and David W Ussery and Takuji Yamada and Pierre Renault and Thomas Sicheritz-Ponten and Peer Bork and Jun Wang and S{\o}ren Brunak and S Dusko Ehrlich},
+  title = {Identification and assembly of genomes and genetic elements in complex metagenomic samples without using reference genomes},
+  journal = {Nature Biotechnology}
+}
+
+@article{Qin2014,
+  doi = {10.1038/nature13568},
+  url = {https://doi.org/10.1038/nature13568},
+  year = {2014},
+  month = jul,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {513},
+  number = {7516},
+  pages = {59--64},
+  author = {Nan Qin and Fengling Yang and Ang Li and Edi Prifti and Yanfei Chen and Li Shao and Jing Guo and Emmanuelle Le Chatelier and Jian Yao and Lingjiao Wu and Jiawei Zhou and Shujun Ni and Lin Liu and Nicolas Pons and Jean Michel Batto and Sean P. Kennedy and Pierre Leonard and Chunhui Yuan and Wenchao Ding and Yuanting Chen and Xinjun Hu and Beiwen Zheng and Guirong Qian and Wei Xu and S. Dusko Ehrlich and Shusen Zheng and Lanjuan Li},
+  title = {Alterations of the human gut microbiome in liver cirrhosis},
+  journal = {Nature}
+}
+
+@article{Qin2012,
+  doi = {10.1038/nature11450},
+  url = {https://doi.org/10.1038/nature11450},
+  year = {2012},
+  month = sep,
+  publisher = {Springer Science and Business Media {LLC}},
+  volume = {490},
+  number = {7418},
+  pages = {55--60},
+  author = {Junjie Qin and Yingrui Li and Zhiming Cai and Shenghui Li and Jianfeng Zhu and Fan Zhang and Suisha Liang and Wenwei Zhang and Yuanlin Guan and Dongqian Shen and Yangqing Peng and Dongya Zhang and Zhuye Jie and Wenxian Wu and Youwen Qin and Wenbin Xue and Junhua Li and Lingchuan Han and Donghui Lu and Peixian Wu and Yali Dai and Xiaojuan Sun and Zesong Li and Aifa Tang and Shilong Zhong and Xiaoping Li and Weineng Chen and Ran Xu and Mingbang Wang and Qiang Feng and Meihua Gong and Jing Yu and Yanyan Zhang and Ming Zhang and Torben Hansen and Gaston Sanchez and Jeroen Raes and Gwen Falony and Shujiro Okuda and Mathieu Almeida and Emmanuelle LeChatelier and Pierre Renault and Nicolas Pons and Jean-Michel Batto and Zhaoxi Zhang and Hua Chen and Ruifu Yang and Weimou Zheng and Songgang Li and Huanming Yang and Jian Wang and S. Dusko Ehrlich and Rasmus Nielsen and Oluf Pedersen and Karsten Kristiansen and Jun Wang},
+  title = {A metagenome-wide association study of gut microbiota in type 2 diabetes},
+  journal = {Nature}
+}
+
+@article{Liu2015,
+  doi = {10.1097/mpg.0000000000000606},
+  url = {https://doi.org/10.1097/mpg.0000000000000606},
+  year = {2015},
+  month = feb,
+  publisher = {Ovid Technologies (Wolters Kluwer Health)},
+  volume = {60},
+  number = {2},
+  pages = {240--246},
+  author = {Dong Liu and Jialin Yu and Luquan Li and Qing Ai and Jinxing Feng and Chao Song and Hongdong Li},
+  title = {Bacterial Community Structure Associated With Elective Cesarean Section Versus Vaginal Delivery in Chinese Newborns},
+  journal = {Journal of Pediatric Gastroenterology {\&}amp$\mathsemicolon$ Nutrition}
+}
+
+@article{Ferretti2018,
+  doi = {10.1016/j.chom.2018.06.005},
+  url = {https://doi.org/10.1016/j.chom.2018.06.005},
+  year = {2018},
+  month = jul,
+  publisher = {Elsevier {BV}},
+  volume = {24},
+  number = {1},
+  pages = {133--145.e5},
+  author = {Pamela Ferretti and Edoardo Pasolli and Adrian Tett and Francesco Asnicar and Valentina Gorfer and Sabina Fedi and Federica Armanini and Duy Tin Truong and Serena Manara and Moreno Zolfo and Francesco Beghini and Roberto Bertorelli and Veronica De Sanctis and Ilaria Bariletti and Rosarita Canto and Rosanna Clementi and Marina Cologna and Tiziana Crif{\`{o}} and Giuseppina Cusumano and Stefania Gottardi and Claudia Innamorati and Caterina Mas{\`{e}} and Daniela Postai and Daniela Savoi and Sabrina Duranti and Gabriele Andrea Lugli and Leonardo Mancabelli and Francesca Turroni and Chiara Ferrario and Christian Milani and Marta Mangifesta and Rosaria Anzalone and Alice Viappiani and Moran Yassour and Hera Vlamakis and Ramnik Xavier and Carmen Maria Collado and Omry Koren and Saverio Tateo and Massimo Soffiati and Anna Pedrotti and Marco Ventura and Curtis Huttenhower and Peer Bork and Nicola Segata},
+  title = {Mother-to-Infant Microbial Transmission from Different Body Sites Shapes the Developing Infant Gut Microbiome},
+  journal = {Cell Host {\&}$\mathsemicolon$ Microbe}
+}
+
+@article{Xie2016,
+  doi = {10.1016/j.cels.2016.10.004},
+  url = {https://doi.org/10.1016/j.cels.2016.10.004},
+  year = {2016},
+  month = dec,
+  publisher = {Elsevier {BV}},
+  volume = {3},
+  number = {6},
+  pages = {572--584.e3},
+  author = {Hailiang Xie and Ruijin Guo and Huanzi Zhong and Qiang Feng and Zhou Lan and Bingcai Qin and Kirsten J. Ward and Matthew A. Jackson and Yan Xia and Xu Chen and Bing Chen and Huihua Xia and Changlu Xu and Fei Li and Xun Xu and Jumana Yousuf Al-Aama and Huanming Yang and Jian Wang and Karsten Kristiansen and Jun Wang and Claire J. Steves and Jordana T. Bell and Junhua Li and Timothy D. Spector and Huijue Jia},
+  title = {Shotgun Metagenomics of 250 Adult Twins Reveals Genetic and Environmental Impacts on the Gut Microbiome},
+  journal = {Cell Systems}
+}
+
+@article{Yu2015,
+  doi = {10.1016/j.jinf.2015.03.001},
+  url = {https://doi.org/10.1016/j.jinf.2015.03.001},
+  year = {2015},
+  month = jul,
+  publisher = {Elsevier {BV}},
+  volume = {71},
+  number = {1},
+  pages = {19--27},
+  author = {Jianxing Yu and Huaiqi Jing and Shengjie Lai and Wenbo Xu and Mengfeng Li and Jianguo Wu and Wei Liu and Zhenghong Yuan and Yu Chen and Shiwen Zhao and Xinhua Wang and Zhuo Zhao and Lu Ran and Shuyu Wu and John D. Klena and Luzhao Feng and Fu Li and Xianfei Ye and Yanzi Qiu and Xin Wang and Hongjie Yu and Zhongjie Li and Weizhong Yang},
+  title = {Etiology of diarrhea among children under the age five in China: Results from a five-year surveillance},
+  journal = {Journal of Infection}
+}
